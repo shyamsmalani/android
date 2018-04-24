@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pstech.developers.android.firstwords">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NumberActivity"
+            android:label="Numbers"/>
+        <activity android:name=".ColorsActivity"
+            android:label="Colors"/>
+        <activity android:name=".VegetablesActivity"
+            android:label="Vegetables"/>
+        <activity android:name=".FruitsActivity"
+            android:label="Fruits"/>
+        <activity android:name=".AnimalsActivity"
+            android:label="Animals"/>
+        <activity android:name=".BirdsActivity"
+            android:label="Birds"></activity>
+    </application>
+
+</manifest>
